@@ -29,7 +29,7 @@ func main() {
 
 // Handler
 func hello(c echo.Context) error {
-  return c.String(http.StatusOK, "Hello, Steven!")
+  return c.String(http.StatusOK, "Welcome, Steven!")
 }
 
 func ping(c echo.Context) error {
